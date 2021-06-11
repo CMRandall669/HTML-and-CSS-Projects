@@ -71,7 +71,7 @@ p:hover {
 /* Anchor Elements */
 
 a {
-    color: blue;
+    color: rgb(0, 225, 255);
 }
 
 
@@ -118,7 +118,7 @@ img:hover {
 
 footer {
     padding: 2%;
-    background-color: white;
+    background-color: #313131;
 }
 
 
