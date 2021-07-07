@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>Sign up for the new Super Smash Bros. Tournaments featuring 64 Remix, Melee, P+, and Ultimate</title>
-    <link rel="stylesheet" href="./CSS/one_page_website.css">	
+    <link rel="stylesheet" href="./CSS/one_page_website.css">
+    <script src="JS/one_page_website.js"></script>
 </head>
 
 <body>
@@ -39,158 +40,240 @@
         </div>
     </div>
     <!-- END HOME -->
-
-    <!-- GALLERY -->
+    <!--GALLERY-->
     <section id="gallery">
-        <div class="container">
-            <h1>Gallery</h1>
-            <div class="flex-container"
-                <div>
-                    <!-- PHOTO CONTAINER 1 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_1.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END PHOTO CONTAINER -->
+        <div class="gallery-container">
+            <h2 style="text-align:center">Lightbox</h2>
 
-                    <!-- PHOTO CONTAINER 2 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_2.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END PHOTO CONTAINER -->
+            <div class="row">
 
-                    <!-- PHOTO CONTAINER 3 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_3.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
+                    <!--Photo 1 -->
+                    <div class="column">
+                      <div class="photo">
+                        <div class="pain">
+                            <img class="box" src="./Images/Thumb/thumbnail_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
                         </div>
+                      </div>
                     </div>
-                    <!-- END PHOTO CONTAINER -->
+                    <!-- END PHOTO 1 -->
 
-                    <!-- PHOTO CONTAINER 4 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_4.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
-                        </div>
+                    <!--Photo 2-->
+                    <div class="column">
+                      <div class="photo">
+                            <img class="box" src="./Images/Thumb/thumbnail_2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                      </div>
                     </div>
-                    <!-- END PHOTO CONTAINER -->
+                    <!-- END PHOTO 2 -->
+                    
+                    <!--Photo 3 -->
+                    <div class="column">
+                      <div class="photo">
+                            <img class="box" src="./Images/Thumb/thumbnail_3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    <!-- END PHOTO 3 -->
 
-                    <!-- PHOTO CONTAINER 5 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_5.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
-                        </div>
+                    <!--Photo 4 -->
+                    <div class="column">
+                      <div class="photo">
+                        <img class="box" src="./Images/Thumb/thumbnail_4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
                     </div>
-                    <!-- END PHOTO CONTAINER -->
+                    <!-- END PHOTO 4 -->
 
-                    <!-- PHOTO CONTAINER 6 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_6.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
-                        </div>
+                    <!--Photo 5 -->
+                    <div class="column">
+                      <div class="photo">
+                        <img class="box" src="./Images/Thumb/thumbnail_5.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
                     </div>
-                    <!-- END PHOTO CONTAINER -->
+                    <!-- END PHOTO 5 -->
 
-                    <!-- PHOTO CONTAINER 7 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_7.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
-                        </div>
+                    <!--Photo 6 -->
+                    <div class="column">
+                      <div class="photo">
+                        <img class="box" src="./Images/Thumb/thumbnail_6.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
                     </div>
-                    <!-- END PHOTO CONTAINER -->
+                    <!-- END PHOTO 6 -->
 
-                    <!-- PHOTO CONTAINER 8 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_8.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
-                        </div>
+                    <!--Photo 7 -->
+                    <div class="column">
+                      <div class="photo">
+                        <img class="box" src="./Images/Thumb/thumbnail_7.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
                     </div>
-                    <!-- END PHOTO CONTAINER -->
+                    <!-- END PHOTO 7 -->
 
-                    <!-- PHOTO CONTAINER 9 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_9.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
-                        </div>
+                    <!--Photo 8 -->
+                    <div class="column">
+                      <div class="photo">
+                        <img class="box" src="./Images/Thumb/thumbnail_8.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
                     </div>
+                    <!-- END PHOTO 8 -->
 
-                    <!-- PHOTO CONTAINER 10 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_10.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                            
-                            </div>
-                        </div>
+                    <!--Photo 9 -->
+                    <div class="column">
+                       <div class="photo"> 
+                        <img class="box" src="./Images/Thumb/thumbnail_9.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
                     </div>
+                    <!-- END PHOTO 9 -->
 
-                    <!-- PHOTO CONTAINER 11 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_11.jpg" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                               
-                            </div>
-                        </div>
+                    <!--Photo 10 -->
+                    <div class="column">
+                      <div class="photo">
+                        <img class="box" src="./Images/Thumb/thumbnail_10.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
                     </div>
+                    <!-- END PHOTO 10 -->
 
-                    <!-- PHOTO CONTAINER 12 -->
-                    <div class="photo-container">
-                        <div class="photo">
-                            <img src="./Images/thumb/thumbnail_12.png" alt="image not found">
-                            <div>
-                                <h3 class="white-head">Click to enlarge</h3>
-                                
-                            </div>
-                        </div>
+
+                    <!-- Photo 11 -->
+                    <div class="column">
+                      <div class="photo">
+                        <img class="box" src="./Images/Thumb/thumbnail_11.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
                     </div>
-                    <!-- END PHOTO CONTAINER -->
-                </div>
+                    <!-- END PHOTO 11 -->
+
+                    <!--Photo 12 -->
+                    <div class="column">
+                      <div class="photo">
+                        <img class="box" src="./Images/Thumb/thumbnail_12.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    <!-- END PHOTO 12 -->
+
 
             </div>
-        </div>
+        </div>    
     </section>
+
+<div id="Modal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="Slides">
+      <div class="numbertext">1 / 12</div>
+        <img src="./Images/Thumb/thumbnail_1.jpg" style="width:100%">
+    </div>
+
+    <div class="Slides">
+      <div class="numbertext">2 / 12</div>
+        <img src="./Images/Thumb/thumbnail_2.jpg" style="width:100%">
+    </div>
+
+    <div class="Slides">
+      <div class="numbertext">3 / 12</div>
+        <img src="./Images/Thumb/thumbnail_3.jpg" style="width:100%">
+    </div>
+    
+    <div class="Slides">
+      <div class="numbertext">4 / 12</div>
+      <img src="./Images/Thumb/thumbnail_4.jpg" style="width:100%">
+    </div>
+
+    <div class="Slides">
+      <div class="numbertext">5 / 12</div>
+        <img src="./Images/Thumb/thumbnail_5.jpg" style="width:100%">
+    </div>
+    
+    <div class="Slides">
+      <div class="numbertext">6 / 12</div>
+        <img src="./Images/Thumb/thumbnail_6.jpg" style="width:100%">
+    </div>
+    
+    <div class="Slides">
+      <div class="numbertext">7 / 12</div>
+        <img src="./Images/Thumb/thumbnail_7.jpg" style="width:100%">
+    </div>
+
+    <div class="Slides">
+      <div class="numbertext">8 / 12</div>
+        <img src="./Images/Thumb/thumbnail_8.jpg" style="width:100%">
+    </div>
+
+    <div class="Slides">
+      <div class="numbertext">9 / 12</div>
+        <img src="./Images/Thumb/thumbnail_9.jpg" style="width:100%">
+    </div>
+
+    <div class="Slides">
+      <div class="numbertext">10 / 12</div>
+        <img src="./Images/Thumb/thumbnail_10.jpg" style="width:100%">
+    </div>
+
+    <div class="Slides">
+      <div class="numbertext">11 / 12</div>
+        <img src="./Images/Thumb/thumbnail_11.jpg" style="width:100%">
+    </div>
+
+    <div class="Slides">
+      <div class="numbertext">12 / 12</div>
+      <img src="./Images/Thumb/thumbnail_12.png" style="width:100%">
+    </div>
+
+
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Classic Smash Bros Melee">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Fox/Marth Matchup">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Classic Rivalries">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="featuring Smash 64 Remix">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Now with added characters">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Like the smelly man himself Wario">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_7.jpg" style="width:100%" onclick="currentSlide(7)" alt="Also featuring P+">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_8.jpg" style="width:100%" onclick="currentSlide(8)" alt="Most recent Version in use practice accordingly">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_9.jpg" style="width:100%" onclick="currentSlide(9)" alt="P+ and Knuckles">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_10.jpg" style="width:100%" onclick="currentSlide(10)" alt="Smash Ultimate will be the highlight event">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_11.jpg" style="width:100%" onclick="currentSlide(11)" alt="The most recent game makes for some explosive matches">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="./Images/Thumb/thumbnail_12.png" style="width:100%" onclick="currentSlide(12)" alt="Champions are made here!">
+    </div>
+
+  </div>
+</div>
 
     <!-- Video-->
     <section>
