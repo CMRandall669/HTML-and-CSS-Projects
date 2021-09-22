@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="CSS/style.css">
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
    </head>
 <body>
 
@@ -80,77 +81,72 @@
   </div>
   </section>
   <!--END HOME SECTION-->
-
-
-
-  <div id="Slideshow">
-            <div id="Slideshow_Background"> 
-                <div id="Slideshow_Container">
-                    <!-- Slide 1 of 8 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/SquarePersonal.jpg" alt="Picture of me!">
-                        <div class="text">I'm ready and excited to assist on your projects!</div>
-                    </div>
-                    <!-- Slide 2 of 8 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
-                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
-                    </div>
-                    <!-- Slide 3 of 8 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/Python.png" alt="Python logo">
-                        <div class="text">the popular programming language Python,</div>
-                    </div>
-                    <!-- Slide 4 of 8 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/C_Sharp_and_Dot_NET.png" alt="C# logo">
-                        <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
-                    </div>
-                    <!-- Slide 5 of 8 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/SQL_and_Database.jpg" alt="SQL logo"> 
-                        <div class="text">back end development, databases and SQL.</div>
-                    </div>
-                     <!-- Slide 6 of 8 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/UnitySquare.jpg" alt="Unity Logo"> 
-                        <div class="text">Experienced with game development tools such as Unity,</div>
-                    </div>
-                     <!-- Slide 7 of 8 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/UnrealSquare.jpg" alt="Unreal Logo"> 
-                        <div class="text">and the very popular Unreal Engine.</div>
-                    </div>
-                    <!-- Slide 8 of 8 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/ContactSquare.jpg" alt="Replace with a picture of your choosing"> 
-                        <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Contact me now!</a></div> 
-                    </div>
-
-                    <!-- Previous and next buttons -->
-                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-                <br>
-                <!--Previous and Next buttons-->
-                <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="Next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br><!--Space between Slideshow images and dots -->
-        
-            <!--Slideshow dots-->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlides(2)"></span>
-                <span class="dot" onclick="currentSlides(3)"></span>
-                <span class="dot" onclick="currentSlides(4)"></span>
-                <span class="dot" onclick="currentSlides(5)"></span>
-                <span class="dot" onclick="currentSlides(6)"></span>
-                <span class="dot" onclick="currentSlides(7)"></span>
-                <span class="dot" onclick="currentSlides(8)"></span>
-            </div>
-        </div>
+  
+  <div class="container">
+    <div class="image-gallery">
+      <a href="images/img_1.jpg" class="img_1">
+        <i class="icon ion-md-expand"></i>
+      </a>
     </div>
+  </div>
+
+  <div class="container">
+    <div class="image-gallery">
+      <a href="images/img_2.jpeg" class="img_2">
+        <i class="icon ion-md-expand"></i>
+      </a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="image-gallery">
+      <a href="images/img_3.png" class="img_3">
+        <i class="icon ion-md-expand"></i>
+      </a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="image-gallery">
+      <a href="images/img_4.png" class="img_4">
+        <i class="icon ion-md-expand"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="image-gallery">
+      <a href="images/img_5.jpg" class="img_5">
+        <i class="icon ion-md-expand"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="image-gallery">
+      <a href="images/img_6.jpg" class="img_6">
+        <i class="icon ion-md-expand"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="image-gallery">
+      <a href="images/img_7.jpg" class="img_7">
+        <i class="icon ion-md-expand"></i>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="image-gallery">
+      <a href="images/img_8.jpg" class="img_8">
+        <i class="icon ion-md-expand"></i>
+      </a>
+    </div>
+  </div>
+
+
+
+  
 
   <!--ABOUT SECTION-->
   <section id="About">
@@ -205,9 +201,7 @@
   <!--New Contact Section-->
 
 
-  <!--Photo About-->
-
-  <!--Photo About-->
+  
 
 
   <script src="JavaScript/script.js"></script>
