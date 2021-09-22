@@ -229,14 +229,15 @@ footer {
     position: fixed;
     right: 0;
     bottom: 0;
-    min-width: 100%;
     z-index: -1;
+    width: 100px;
+    height: 100px;
 }
 
 
 /* Screens that are 576px and smaller will not display the background video */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 72px) {
     #Typing_Video {
         display: none;
     }

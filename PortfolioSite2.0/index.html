@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Connor Randall Portfolio</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+
+<!--START OF SIDEBAR-->
+  <div class="sidebar">
+    
+    <ul class="nav-list">
+    <!--START OF HOME NAV-->
+    
+      <li>
+        <a href="#HOME">
+          <i class='bx bx-home'></i>
+          <span class="links_name">Home</span>
+        </a>
+         <span class="tooltip">Home</span>
+      </li>
+      <!--END OF HOME NAV-->
+
+      <!--START OF ABOUT ME NAV-->
+      <li>
+       <a href="#About">
+         <i class='bx bx-cool'></i>
+         <span class="links_name">About Me</span>
+       </a>
+       <span class="tooltip">About Me</span>
+     </li>
+     <!--END OF ABOUT ME NAV-->
+
+    
+
+    <!--START OF GITHUB NAV-->
+     <li>
+       <a href="#PROJECTS">
+         <i class='bx bxl-github' ></i>
+         <span class="links_name">Projects</span>
+       </a>
+       <span class="tooltip">Projects</span>
+     </li>
+     <!--END OF GITHUB NAV-->
+
+    
+
+    <!--START OF Contact NAV-->
+     <li>
+       <a href="#CONTACT">
+         <i class='bx bx-phone-call' onclick="openForm()" class="Pop_Up_Button"></i>
+         <span class="links_name">Contact Me </span>
+       </a>
+       <span class="tooltip">Contact Me</span>
+     </li>
+     <!--END OF Contact NAV-->
+    </ul>
+    
+  </div>
+  <!--END SIDEBAR-->
+
+  <!--START HOME SECTION-->
+  <section id="HOME">
+  <div id="HOME">
+    <div class="welcome-container">
+      <h1> Welcome to Connor Randall's portfolio </h1>
+        <br>
+        <h2>Full Stack Software Developer</h2>
+          <br>
+        </div> 
+    </div>
+      <video width="1920" height="1080" id="flyingText" poster="images/poster.png" autoplay muted loop>
+        <source src="images/text.mp4" Type="video/mp4">
+      </video>
+  </div>
+  </section>
+  <!--END HOME SECTION-->
+
+
+
+  <div id="Slideshow">
+            <div id="Slideshow_Background"> 
+                <div id="Slideshow_Container">
+                    <!-- Slide 1 of 8 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/SquarePersonal.jpg" alt="Picture of me!">
+                        <div class="text">I'm ready and excited to assist on your projects!</div>
+                    </div>
+                    <!-- Slide 2 of 8 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
+                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+                    </div>
+                    <!-- Slide 3 of 8 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/Python.png" alt="Python logo">
+                        <div class="text">the popular programming language Python,</div>
+                    </div>
+                    <!-- Slide 4 of 8 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/C_Sharp_and_Dot_NET.png" alt="C# logo">
+                        <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
+                    </div>
+                    <!-- Slide 5 of 8 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/SQL_and_Database.jpg" alt="SQL logo"> 
+                        <div class="text">back end development, databases and SQL.</div>
+                    </div>
+                     <!-- Slide 6 of 8 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/UnitySquare.jpg" alt="Unity Logo"> 
+                        <div class="text">Experienced with game development tools such as Unity,</div>
+                    </div>
+                     <!-- Slide 7 of 8 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/UnrealSquare.jpg" alt="Unreal Logo"> 
+                        <div class="text">and the very popular Unreal Engine.</div>
+                    </div>
+                    <!-- Slide 8 of 8 -->
+                    <div class="mySlides fade">
+                        <img class="Slideshow_Images" src="images/ContactSquare.jpg" alt="Replace with a picture of your choosing"> 
+                        <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Contact me now!</a></div> 
+                    </div>
+
+                    <!-- Previous and next buttons -->
+                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <!--Previous and Next buttons-->
+                <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br><!--Space between Slideshow images and dots -->
+        
+            <!--Slideshow dots-->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlides(2)"></span>
+                <span class="dot" onclick="currentSlides(3)"></span>
+                <span class="dot" onclick="currentSlides(4)"></span>
+                <span class="dot" onclick="currentSlides(5)"></span>
+                <span class="dot" onclick="currentSlides(6)"></span>
+                <span class="dot" onclick="currentSlides(7)"></span>
+                <span class="dot" onclick="currentSlides(8)"></span>
+            </div>
+        </div>
+    </div>
+
+  <!--ABOUT SECTION-->
+  <section id="About">
+    <div class="who-container">
+      <h2>Who am I?</h2>
+      <br>
+      <p>My name is Connor Randall. I am a full stack software developer. With experience in several programming and markup languages. These include HTML, CSS, JavaScript, SQL, C#, and C++.</p>
+      
+      <p>Fast learner with base knowledge needed to quickly pick up new languages and processes easily. </p> 
+      
+      <p>My experienceI work well in a team and fast paced environment. I keep up with current technologies and do my best to understand and implement them as fast as possible.</p>
+      
+      <p>I am available and ready to assist in your next project. Reach out to me now</p> 
+      <br>
+      <p>Linked here is a pdf copy of my most recent resume feel free to take a peek.</p>
+      <br>
+      <a href="https://docs.google.com/document/d/1NvcNNQrE9m758bIXxn7ZsmPYLkWES0AI/edit?usp=sharing&ouid=115520886972182004843&rtpof=true&sd=true">Connor Randall Current Resume Updated July 2021</a>
+    </div>
+
+    
+
+    
+  </section>
+  <!--END ABOUT SECTION-->
+
+  
+  <!--START GITHUB-->
+  <section id="PROJECTS">
+  </section>
+  <!--END GITHUB-->
+
+  
+  <!--New Contact Section-->
+  <div id="CONTACT">
+      <div class="form-popup" id="myForm">
+        <form action="https://formspree.io/f/mleabqwv" method="POST" class="form-container">
+            <h1>Contact</h1>
+                <label for="name"><b>Name</b></label>
+                  <input type="text" placeholder="Type your name here" name="name" required>
+                <label for="phone"><b>Phone</b></label>
+                  <input type="text" placeholder="Type your phone number here" name="phone">
+                <label for="email"><b>Email</b></label>		
+                  <input type="text" placeholder="Type your email address here" name="email" required>
+                <label for="message"><b>Message</b></label>
+                  <input type="text" placeholder="Type your message here" name="message">
+
+                  <button type="submit" class="btn">SUBMIT</button>
+                  <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+          </form>  
+      </div>
+  </div>
+  <!--New Contact Section-->
+
+
+  <!--Photo About-->
+
+  <!--Photo About-->
+
+
+  <script src="JavaScript/script.js"></script>
+   <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+</body>
+</html>
